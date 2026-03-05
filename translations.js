@@ -8,7 +8,7 @@ const translations = {
         "nav-cta": "Get Started",
 
         // Hero
-        "hero-badge": "Innovating Since 2018",
+        "hero-badge": "Innovating Since 2013",
         "hero-title-1": "We Build ",
         "hero-title-2": "Digital Solutions",
         "hero-title-3": " That Matter",
@@ -20,7 +20,7 @@ const translations = {
         "about-label": "Who We Are",
         "about-title-1": "Driving Innovation With ",
         "about-title-2": "Purpose & Passion",
-        "about-p1": "Founded in 2018, Wireless Solution Asia is a forward-thinking technology company dedicated to helping businesses thrive in the digital era. We combine deep technical expertise with creative problem-solving to deliver exceptional results.",
+        "about-p1": "Founded in 2013, Wireless Solution Asia is a forward-thinking technology company dedicated to helping businesses thrive in the digital era. We combine deep technical expertise with creative problem-solving to deliver exceptional results.",
         "about-p2": "Our team of experts brings together diverse perspectives and skills, united by a shared commitment to excellence and innovation. We believe technology should empower people, not complicate their lives.",
         "stat-1": "Projects Delivered",
         "stat-2": "Happy Clients",
@@ -81,7 +81,7 @@ const translations = {
 
         // Contact
         "office-address": "685 Soi 6, Khlong Chaokhun Sing, Wang Thonglang, Bangkok 10310",
-        "contact-email": "info@wirelesssolution.asia",
+        "contact-email": "tin@wirelesssolution.asia",
         "contact-phone": "088-298-8966",
         "contact-hours": "Mon - Fri, 9am - 6pm",
         "contact-label": "Get In Touch",
@@ -204,7 +204,7 @@ const translations = {
         "nav-cta": "เริ่มต้นใช้งาน",
 
         // Hero
-        "hero-badge": "สร้างสรรค์นวัตกรรมตั้งแต่ปี 2018",
+        "hero-badge": "สร้างสรรค์นวัตกรรมตั้งแต่ปี 2013",
         "hero-title-1": "เราสร้าง ",
         "hero-title-2": "โซลูชันระบบดิจิทัล",
         "hero-title-3": " ที่สำคัญ",
@@ -216,7 +216,7 @@ const translations = {
         "about-label": "พวกเราคือใคร",
         "about-title-1": "ขับเคลื่อนนวัตกรรมด้วย ",
         "about-title-2": "เป้าหมายและความหลงใหล",
-        "about-p1": "Wireless Solution Asia ก่อตั้งขึ้นในปี 2018 เป็นบริษัทเทคโนโลยีที่มองการณ์ไกล ซึ่งอุทิศตนเพื่อช่วยเหลือธุรกิจให้เติบโตในยุคดิจิทัล เราผสมผสานความเชี่ยวชาญด้านเทคนิคระดับสูงเข้ากับการแก้ปัญหาเชิงสร้างสรรค์เพื่อมอบผลลัพธ์ที่ยอดเยี่ยม",
+        "about-p1": "Wireless Solution Asia ก่อตั้งขึ้นในปี 2013 เป็นบริษัทเทคโนโลยีที่มองการณ์ไกล ซึ่งอุทิศตนเพื่อช่วยเหลือธุรกิจให้เติบโตในยุคดิจิทัล เราผสมผสานความเชี่ยวชาญด้านเทคนิคระดับสูงเข้ากับการแก้ปัญหาเชิงสร้างสรรค์เพื่อมอบผลลัพธ์ที่ยอดเยี่ยม",
         "about-p2": "ทีมผู้เชี่ยวชาญของเรารวบรวมมุมมองและทักษะที่หลากหลาย รวมเป็นหนึ่งเดียวด้วยความมุ่งมั่นร่วมกันสู่ความเป็นเลิศและนวัตกรรม เราเชื่อว่าเทคโนโลยีควรเพิ่มพลังให้กับผู้คน ไม่ใช่ทำให้ชีวิตของพวกเขายุ่งยาก",
         "stat-1": "โปรเจ็กต์ที่ส่งมอบ",
         "stat-2": "ลูกค้าที่พึงพอใจ",
@@ -263,7 +263,7 @@ const translations = {
 
         // Contact
         "office-address": "685 ซอย 6 แขวงคลองเจ้าคุณสิงห์ เขตวังทองหลาง กรุงเทพมหานคร 10310",
-        "contact-email": "info@wirelesssolution.asia",
+        "contact-email": "tin@wirelesssolution.asia",
         "contact-phone": "088-298-8966",
         "contact-hours": "จันทร์ - ศุกร์, 9:00 - 18:00น.",
         "contact-label": "ติดต่อเรา",
