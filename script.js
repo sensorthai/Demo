@@ -5,6 +5,7 @@ const navLinks = document.getElementById('navLinks');
 const contactForm = document.getElementById('contactForm');
 const toast = document.getElementById('toast');
 const heroParticles = document.getElementById('heroParticles');
+const langToggle = document.getElementById('langToggle');
 
 // ===== NAVBAR SCROLL EFFECT =====
 window.addEventListener('scroll', () => {
@@ -127,34 +128,38 @@ function createParticles() {
 createParticles();
 
 // ===== CONTACT FORM =====
-contactForm.addEventListener('submit', (e) => {
-  e.preventDefault();
+if (contactForm) {
+  contactForm.addEventListener('submit', (e) => {
+    e.preventDefault();
 
-  const btn = document.getElementById('submitBtn');
-  const originalText = btn.innerHTML;
-  btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
-  btn.disabled = true;
+    const btn = document.getElementById('submitBtn');
+    const originalText = btn.innerHTML;
+    btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
+    btn.disabled = true;
 
-  // Simulate form submission
-  setTimeout(() => {
-    btn.innerHTML = '<i class="fas fa-check"></i> Sent!';
-    btn.style.background = 'linear-gradient(135deg, #10b981, #059669)';
-
-    // Show toast notification
-    toast.classList.add('show');
-    setTimeout(() => toast.classList.remove('show'), 4000);
-
-    // Reset form
-    contactForm.reset();
-
-    // Reset button after delay
+    // Simulate form submission
     setTimeout(() => {
-      btn.innerHTML = originalText;
-      btn.style.background = '';
-      btn.disabled = false;
-    }, 3000);
-  }, 1500);
-});
+      btn.innerHTML = '<i class="fas fa-check"></i> Sent!';
+      btn.style.background = 'linear-gradient(135deg, #10b981, #059669)';
+
+      // Show toast notification
+      if (toast) {
+        toast.classList.add('show');
+        setTimeout(() => toast.classList.remove('show'), 4000);
+      }
+
+      // Reset form
+      contactForm.reset();
+
+      // Reset button after delay
+      setTimeout(() => {
+        btn.innerHTML = originalText;
+        btn.style.background = '';
+        btn.disabled = false;
+      }, 3000);
+    }, 1500);
+  });
+}
 
 // ===== ACTIVE NAV LINK HIGHLIGHT =====
 const sections = document.querySelectorAll('section[id]');
@@ -175,3 +180,49 @@ window.addEventListener('scroll', () => {
     }
   });
 });
+
+// ===== LANGUAGE SWITCHER =====
+window.currentLang = 'en';
+
+window.setLanguage = function (lang) {
+  window.currentLang = lang;
+
+  // Update toggle button UI
+  if (langToggle) {
+    const enSpan = langToggle.querySelector('.lang-en');
+    const thSpan = langToggle.querySelector('.lang-th');
+
+    if (lang === 'en') {
+      enSpan.classList.add('active');
+      thSpan.classList.remove('active');
+    } else {
+      thSpan.classList.add('active');
+      enSpan.classList.remove('active');
+    }
+  }
+
+  // Update text content
+  document.querySelectorAll('[data-i18n]').forEach(el => {
+    const key = el.getAttribute('data-i18n');
+    if (translations[lang] && translations[lang][key]) {
+      el.textContent = translations[lang][key];
+    }
+  });
+
+  // Save preference
+  localStorage.setItem('preferredLanguage', lang);
+}
+
+// Initialize language
+document.addEventListener('DOMContentLoaded', () => {
+  const savedLang = localStorage.getItem('preferredLanguage');
+  if (savedLang) {
+    setLanguage(savedLang);
+  }
+});
+
+if (langToggle) {
+  langToggle.addEventListener('click', () => {
+    setLanguage(window.currentLang === 'en' ? 'th' : 'en');
+  });
+}
