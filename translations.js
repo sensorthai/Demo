@@ -141,6 +141,7 @@ const translations = {
         "service-thingsboard-feature-2": "Installation Services: Our team of experts is ready to help you install and customize Thingsboard to meet your business or project needs for a fast start.",
         "service-thingsboard-feature-3": "Training Services: We offer scheduled training programs to help increase knowledge and skills in using the Thingsboard platform effectively.",
         "service-thingsboard-feature-4": "Upgrade Assistance: When upgrading the platform or facing issues, our experts provide guidance for a complete and secure upgrade process.",
+        "partners-title": "Our Strategic Partners",
 
         "service-alcohol-title": "Alcohol Checkpoint Management",
         "service-alcohol-subtitle": "Digital Safety & Compliance Systems",
@@ -334,6 +335,7 @@ const translations = {
         "service-thingsboard-feature-2": "บริการติดตั้งระบบ Thingsboard: ทีมผู้เชี่ยวชาญช่วยในการติดตั้งและปรับแต่งระบบให้ตรงกับความต้องการของธุรกิจ",
         "service-thingsboard-feature-3": "บริการอบรมการใช้งาน: โปรแกรมอบรมเพื่อช่วยเพิ่มพูนความรู้และทักษะในการใช้งานแพลตฟอร์มอย่างเต็มประสิทธิภาพ",
         "service-thingsboard-feature-4": "บริการช่วยเหลือในการอัปเกรด: ทีมผู้เชี่ยวชาญพร้อมช่วยเหลือและให้คำแนะนำในการอัปเกรดอย่างสมบูรณ์แบบและปลอดภัย",
+        "partners-title": "พันธมิตรเชิงกลยุทธ์ของเรา",
 
         "service-alcohol-title": "ระบบจัดการจุดตรวจแอลกอฮอล์",
         "service-alcohol-subtitle": "ระบบความปลอดภัยและการปฏิบัติตามกฎระเบียบดิจิทัล",
