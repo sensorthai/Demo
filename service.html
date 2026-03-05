@@ -287,7 +287,26 @@
                     break;
                 case 'integration':
                     imageEl.src = 'assets/service-1.png';
-                    detailsHTML = `<p data-i18n="service-integration-desc" style="line-height: 1.8;">Seamless integration of diverse hardware and software components to create unified, efficient, and scalable technological ecosystems.</p>`;
+                    detailsHTML = `
+            <div class="iot-sub-section">
+                <p data-i18n="service-integration-desc" style="margin-bottom: 2.5rem; line-height: 1.8; font-size: 1.1rem; color: var(--text-secondary);"></p>
+                
+                <h3 data-i18n="service-integration-feat-1-title"></h3>
+                <p data-i18n="service-integration-feat-1-desc" style="margin-bottom: 2rem;"></p>
+
+                <h3 data-i18n="service-integration-feat-2-title"></h3>
+                <p data-i18n="service-integration-feat-2-desc" style="margin-bottom: 2rem;"></p>
+
+                <h3 data-i18n="service-integration-feat-3-title"></h3>
+                <p data-i18n="service-integration-feat-3-desc" style="margin-bottom: 2rem;"></p>
+
+                <h3 data-i18n="service-integration-feat-4-title"></h3>
+                <p data-i18n="service-integration-feat-4-desc" style="margin-bottom: 2rem;"></p>
+
+                <h3 data-i18n="service-integration-feat-5-title"></h3>
+                <p data-i18n="service-integration-feat-5-desc" style="margin-bottom: 2rem;"></p>
+            </div>
+          `;
                     break;
             }
 

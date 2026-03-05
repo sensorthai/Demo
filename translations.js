@@ -193,7 +193,17 @@ const translations = {
 
         "service-integration-title": "Systems Integration",
         "service-integration-subtitle": "Unified Technology Ecosystems",
-        "service-integration-desc": "Seamlessly connecting hardware and software components to create streamlined, automated, and scalable workflows."
+        "service-integration-desc": "Seamlessly connecting hardware and software components to create streamlined, automated, and scalable workflows.",
+        "service-integration-feat-1-title": "Hardware-Software Bridging",
+        "service-integration-feat-1-desc": "Developing custom drivers and middleware to connect industrial hardware with modern cloud platforms.",
+        "service-integration-feat-2-title": "Legacy System Modernization",
+        "service-integration-feat-2-desc": "Upgrading older infrastructure with IoT capabilities without replacing the entire existing system.",
+        "service-integration-feat-3-title": "API & Middleware Development",
+        "service-integration-feat-3-desc": "Building robust APIs that allow different software applications to communicate and share data securely.",
+        "service-integration-feat-4-title": "Custom Dashboard Integration",
+        "service-integration-feat-4-desc": "Consolidating data from multiple sources into a single, intuitive interface for decision-making.",
+        "service-integration-feat-5-title": "Enterprise Workflow Automation",
+        "service-integration-feat-5-desc": "Automating repetitive data tasks between ERP, CRM, and shop-floor systems."
     },
     th: {
         // Nav
@@ -376,6 +386,16 @@ const translations = {
 
         "service-integration-title": "การรวมระบบ (Systems Integration)",
         "service-integration-subtitle": "ระบบนิเวศเทคโนโลยีที่เป็นหนึ่งเดียว",
-        "service-integration-desc": "การเชื่อมต่อส่วนประกอบฮาร์ดแวร์และซอฟต์แวร์อย่างไร้รอยต่อ เพื่อสร้างขั้นตอนการทำงานที่คล่องตัว อัตโนมัติ และขยายขนาดได้"
+        "service-integration-desc": "การเชื่อมต่อส่วนประกอบฮาร์ดแวร์และซอฟต์แวร์อย่างไร้รอยต่อ เพื่อสร้างขั้นตอนการทำงานที่คล่องตัว อัตโนมัติ และขยายขนาดได้",
+        "service-integration-feat-1-title": "การเชื่อมต่อฮาร์ดแวร์และซอฟต์แวร์",
+        "service-integration-feat-1-desc": "พัฒนาไดรเวอร์และมิดเดิลแวร์แบบกำหนดเองเพื่อเชื่อมต่อฮาร์ดแวร์อุตสาหกรรมเข้ากับคลาวด์แพลตฟอร์มสมัยใหม่",
+        "service-integration-feat-2-title": "การปรับปรุงระบบเดิมให้ทันสมัย",
+        "service-integration-feat-2-desc": "อัปเกรดโครงสร้างพื้นฐานเดิมด้วยความสามารถของ IoT โดยไม่จำเป็นต้องเปลี่ยนระบบเดิมทั้งหมด",
+        "service-integration-feat-3-title": "การพัฒนา API และมิดเดิลแวร์",
+        "service-integration-feat-3-desc": "สร้าง API ที่แข็งแกร่งเพื่อให้แอปพลิเคชันซอฟต์แวร์ที่แตกต่างกันสามารถสื่อสารและแบ่งปันข้อมูลได้อย่างปลอดภัย",
+        "service-integration-feat-4-title": "การรวมแดชบอร์ดแบบกำหนดเอง",
+        "service-integration-feat-4-desc": "รวบรวมข้อมูลจากหลายแหล่งเข้าสู่หน้าจอเดียวที่ใช้งานง่ายเพื่อการตัดสินใจที่รวดเร็ว",
+        "service-integration-feat-5-title": "ระบบอัตโนมัติสำหรับขั้นตอนการทำงานขององค์กร",
+        "service-integration-feat-5-desc": "ลดการทำงานซ้ำซ้อนโดยการเชื่อมต่อระบบ ERP, CRM และระบบหน้างานเข้าด้วยกันแบบอัตโนมัติ"
     }
 };
